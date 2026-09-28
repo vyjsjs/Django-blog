@@ -5,3 +5,6 @@ venv
 db.sqlite3
 /static
 .DS_Store
+staticfiles/
+# ch03: 로컬 테스트 중 업로드된 이미지 (기본 이미지 blog_image/default_error.png 는 포함)
+ch03_web_blog/media/blog_image/20*/

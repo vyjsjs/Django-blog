@@ -1,0 +1,19 @@
+Start the socket server...
+"Ctrl+C" for stopping the server!
+
+Request message...
+
+  [raw]   22744 bytes -> ./request/2026-09-28-21-56-20.bin
+POST /api_root/Post/ HTTP/1.1
+Host: 127.0.0.1:8000
+User-Agent: curl/7.81.0
+Authorization: JWT b181ce4155b7413ebd1d86f1379151a7e035f8bd
+Accept: application/json
+Content-Length: 22468
+Content-Type: multipart/form-data; boundary=------------------------ea60ff7face945b9
+  [field] author = 1
+  [field] title = curl 테스트
+  [field] text = API curl로 작성된 AP 테스트 입력 입니다.
+  [field] created_date = 2024-06-10T18:34:00+09:00
+  [field] published_date = 2024-06-10T18:34:00+09:00
+  [image] figure.jpg (image/jpg, 21677 bytes) -> ./request/2026-09-28-21-56-20_figure.jpg
